@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color:#333;
+    /* line-height: 1.6; */
+}
+.container-fluid-1{
+    background-color:gray;
+}
+.sign-in-top{
+    display:flex;
+    justify-content:flex-end;
+    background-color:gray;
+    padding: 5px 0px;    
+}
+.sign-in-items{
+    padding:0px 20px;
+    list-style-type: none;
+}
+.sign-in-items a{
+    text-decoration: none;
+    color:white;
+}
+.sign-in-items a:hover{
+    border-bottom: 1px solid white;
+    color:white;
+}
+.navitems{
+    list-style-type: none;
+}
+.navitems a, .miscitems a{
+    text-decoration: none;
+    color:black;
+}
+input{
+    width:500px;
+    height:30px;
+}
+.logo{
+    color:#333;
+}
+.pickup{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(0, 58, 182);
+    align-items: center;
+}
+.free1, .hotitems{
+    list-style-type: none;
+}
+.free1{
+    margin: 0px 40px;
+    margin-top:10px;
+}
+a.free2{
+    font-weight:500;
+    color:white;
+    text-decoration: none;
+}
+a.free2:hover{
+    color:white;
+}
+.disclaim{
+    font-size:10px;
+}
+img.sport{
+    margin: 0px 120px;
+}
+.hot{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.hotitems h3{
+    font-size:16px;
+}
+img.boots{
+    height:400px;
+    width:600px;
+    margin: 0px 120px;
+}
+.bottom{
+    margin: 10px 0px;
+    padding:10px 0px;
+    background-color:rgb(202, 195, 195);
+}
+.bottom p{
+    color:black;
+    font-size:13px;
+    display:flex;
+    justify-content: center;
+}
+.screenread{
+    padding: 20px 0px;
+}
+.terms{
+    display:flex;
+    justify-content: space-evenly;
+}
+.termsitems{
+    list-style-type: none;
+}
+.termsitems a{
+    text-decoration: none;
+    color:black;
+    font-size:13px;
+}
+.termsitems a:hover, .navitems a:hover, .miscitems a:hover{
+    border-bottom: 1px solid maroon;
+    color:black;
+}
+
+.connect{
+    display:flex;
+    flex-direction: column;
+}
+input.email, input.signup2{
+    display:flex;
+}
+.container-fluid-4{
+    background-color:honeydew;
+}
+.connect h1{
+    font-size:30px;
+    font-weight:bold;
+    margin-top:10px;
+}
+input.email, input.signup2{
+    width:200px;
+    margin: 0px 2px;
+}
+p.signup{
+    margin-top: 20px;
+}
+form{
+    display:flex;
+}
+a.site{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    display:flex;
+    justify-content: center;
+}
+a.site:hover{
+    color:black;
+}
+p.onlineonly{
+    margin-top:15px;
+}
+.nike{
+    width: 250px;
+    height:250px;
+}
+
+.misc{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:35px;
+}
+.miscitems{
+    margin: 20px 0px;
+}
+.company{
+    list-style-type: none;
+}
+.companyfont{
+    font-size:20px;
+}
+.bottomconnect{
+    display:flex;
+}
+a.contactbtn{
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight:500;
+    text-decoration: none;
+    color:black;
+    outline:2px solid black;
+    padding: 5px 20px;
+    margin-bottom:20px;
+}
+a.contactbtn:hover{
+    color:black;
+    background-color:gray;
+}
+.needmore{
+    font-weight:600;
+}
